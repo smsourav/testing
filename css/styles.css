@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: googlesans;
+}
+/*BACKGROUND ANIMATION BACKGROUND ANIMATION BACKGROUND ANIMATION BACKGROUND ANIMATION*/
+/*BACKGROUND ANIMATION BACKGROUND ANIMATION BACKGROUND ANIMATION BACKGROUND ANIMATION*/
+/*BACKGROUND ANIMATION BACKGROUND ANIMATION BACKGROUND ANIMATION BACKGROUND ANIMATION*/
+/*BACKGROUND ANIMATION BACKGROUND ANIMATION BACKGROUND ANIMATION BACKGROUND ANIMATION*/
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: rgb(0, 0, 0);
+}
+section {
+    height: 100vh;
+    position: fixed;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+span {
+    position: absolute;
+    pointer-events: none;
+    background: #fff;
+    border-radius: 5px;
+    animation: animate 5s ease infinite;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100%;
+}
+
+
+
+
+/*FOOTER MENU FOOTER MENU FOOTER MENU FOOTER MENU FOOTER MENU*/
+/*FOOTER MENU FOOTER MENU FOOTER MENU FOOTER MENU FOOTER MENU*/
+/*FOOTER MENU FOOTER MENU FOOTER MENU FOOTER MENU FOOTER MENU*/
+/*FOOTER MENU FOOTER MENU FOOTER MENU FOOTER MENU FOOTER MENU*/
+div.menu {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.753);
+    z-index: 999;
+}
+div.items {
+    display: flex;
+    flex-wrap: wrap;
+    width: inherit;
+}
+div.item {
+    width: calc(100%/5);
+    border: 1px solid black;
+}
+div.menu div.items div.item a {
+    display: block;
+    transition: 0.4s;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 0px;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    border: 1px solid black;
+}
+div.menu div.items div.item a:hover, .active {
+    background: rgb(248, 36, 36);
+    color: white;
+}
+
+
+/*WELCOME TEXT WELCOME TEXT WELCOME TEXT WELCOME TEXT*/
+/*WELCOME TEXT WELCOME TEXT WELCOME TEXT WELCOME TEXT*/
+/*WELCOME TEXT WELCOME TEXT WELCOME TEXT WELCOME TEXT*/
+/*WELCOME TEXT WELCOME TEXT WELCOME TEXT WELCOME TEXT*/
+div.welcome-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+.sub-title {
+    position: relative;
+    font-size: 16.8px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+a.learn {
+    margin: 5px;
+    padding: 7px 20px;
+    border-radius: 4px;
+    font-size: 25px;
+    background: rgb(145, 27, 241);
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+
+/*PRE LOADER PRE LOADER PRE LOADER PRE LOADER PRE LOADER PRE LOADER*/
+/*PRE LOADER PRE LOADER PRE LOADER PRE LOADER PRE LOADER PRE LOADER*/
+
+div.preloader {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    z-index: 99999;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    animation-fill-mode: forwards;
+}
+div.load {
+    height: 280px;
+    width: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-between;
+    align-items: center;
+}
+div.box {
+    height: 90px;
+    width: 90px;
+    background: black;
+    margin: 0;
+    padding: 0;
+    border-radius: 4px;
+    color: white;
+    font-size: 200%;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: box 1s 0s ease infinite;
+    animation-fill-mode: forwards;
+    border: 1px solid white;
+}
+
+
+div.box4, div.box8 {
+    animation-delay: 0.1s;
+}
+div.box1, div.box5, div.box9 {
+    animation-delay: 0.2s;
+}
+div.box2, div.box6 {
+    animation-delay: 0.3s;
+}
+div.box3 {
+    animation-delay: 0.4s;
+}
+
+
+
+
+
+
+
+/*BODY CONTENT BODY CONTENT BODY CONTENT BODY CONTENT BODY CONTENT*/
+/*BODY CONTENT BODY CONTENT BODY CONTENT BODY CONTENT BODY CONTENT*/
+/*BODY CONTENT BODY CONTENT BODY CONTENT BODY CONTENT BODY CONTENT*/
+/*BODY CONTENT BODY CONTENT BODY CONTENT BODY CONTENT BODY CONTENT*/
+
+.container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    opacity: 0.4;
+}
+.full {
+    min-height: 100vh;
+}
+
+
+
+
+
+
+
+
+/*OTHERS CONTENT OTHERS CONTENT OTHERS CONTENT OTHERS CONTENT OTHERS CONTENT*/
+/*OTHERS CONTENT OTHERS CONTENT OTHERS CONTENT OTHERS CONTENT OTHERS CONTENT*/
+/*OTHERS CONTENT OTHERS CONTENT OTHERS CONTENT OTHERS CONTENT OTHERS CONTENT*/
+/*OTHERS CONTENT OTHERS CONTENT OTHERS CONTENT OTHERS CONTENT OTHERS CONTENT*/
+
+
+.bg-red {
+    background-color: red;
+}
+.bg-violet {
+    background-color: rgb(145, 27, 241);
+}
+.bg-blue {
+    background-color: rgb(58, 141, 250);
+}
+.bg-yellow {
+    background-color: rgb(214, 230, 3);
+}
+.bg-green {
+    background-color: rgb(21, 202, 51);
+}
+
+
+@font-face {
+    font-family: googlesans;
+    src: url('../fonts/HS-Latest.ttf');
+}

@@ -1,0 +1,11 @@
+@media (max-width: 767px){
+    a.learn {
+        font-size: 20px;
+    }
+    div.menu div.items div.item a {
+        font-size: 90%;
+    }
+    div.container {
+        width: 100%;
+    }
+}
